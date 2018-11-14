@@ -1,0 +1,68 @@
+body{
+  font-family: 'Secular One', 'Gill Sans', 'Trebuchet MS', sans-serif;
+  color: #000;
+  background: #e0ecff;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy', 'Lucida Bright', 'Palatino', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+img{
+  width: 100%;
+  margin: auto;
+}
+
+.intro-image{
+  display: block;
+  margin: auto;
+}
+
+.flex-container{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.source{
+  font-size: .9rem;
+  text-indent: 240px;
+}
+
+.song-name{
+  text-indent: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#explain{
+  background: #fff;
+  padding: 20px;
+}
+
+audio{
+  margin-top: 20px;
+}
+
+footer{
+  margin-top: 20px;
+  padding: 20px;
+  font-size: .9rem;
+  background: #fff;
+}
+
+@media screen and (max-width: 700px){
+  .source{
+    font-size: .9rem;
+    text-indent: 0px;
+  }
+}
